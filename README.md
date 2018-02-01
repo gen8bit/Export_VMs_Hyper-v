@@ -1,11 +1,7 @@
 # Export_VMs_Hyper-v
 Scripts for exporting VMs over MS Windows Hyper-v
 
-- Estos script realizan una exportación completa de la Maquina Virtual.
-- Durante la exportación, la Maquina Virtual seguira activa, reducirá su rendimiento
-- Requisito obligatorio para realizar el backup, ejecutar cada script desde el host de Hyper-v que está ejecutando la maquina virtual, con este
-disco conectado a esa misma máquina, usando la unidad E:
-- Es posible ejecutar el script 'INICIO_BackupVMs.ps1' que realiza una exportación de todas las Maquinas Virtuales del host en el
-que esta pinchado el disco duro USB, por lo que sería necesario pincharlo en el otro host y repetir la operación para disponer en este host.
-- Se pruede realizar en horario de trabajo, pero se recomienda realizar fuera del horario de trabajo.
+- Add to the task scheduler a job for the scripts; START_BackupVMs_Daily.ps1, START_BackupVMs_Weekly.ps1 and START_BackupVMs_Monthly.ps1 as you need.
+- Copy and configure one script 'BackupVM_server1.ps1' for every VM (Change some variables inside the script, like name of the server, retencion of backup, etc).
+
 
