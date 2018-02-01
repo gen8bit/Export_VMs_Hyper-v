@@ -3,7 +3,7 @@ Write-Host "===================================="
 Write-Host "Backup VMs for Hyper-V"
 Write-Host "(c) Previlabor 2017"
 Write-Host "Author: Angel Pescador Portas"
-Write-Host "email: angel.pescador@gmail.com"
+Write-Host "email: angel.pescador @ protonmail.com"
 Write-Host "scripts name: BackupVM_server5.ps1"
 Write-Host "Version 1.3"
 Write-Host "Date: 01/02/2018"
@@ -19,7 +19,8 @@ $StartBCK = Get-Date -UFormat "%H-%M"
 
 
 # VM, Source & Destination Folders
-# For ALL, Use: Get-VM | foreach Name
+# For ALL, Use: Get-VM | foreach Name
+
 # Variables
 # #########
 
@@ -85,7 +86,9 @@ $Body = 'END of Backup ' + $VM + ' | ' + ' Start process ' + $StartBCK + ' | ' +
 
 send-mailmessage -from $From -to $To -Subject $Subject -body $Body -smtpServer $smtpServer
 
-Write-HostWrite-Host " END Process " $ENDBCK hWrite-Host " --------------------- "
+Write-Host
+Write-Host " END Process " $ENDBCK h
+Write-Host " --------------------- "
 Write-Host
 
 
