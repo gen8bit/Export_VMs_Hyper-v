@@ -2,7 +2,7 @@
 Write-Host "=========================================="
 Write-Host "Backup VMs for Hyper-V"
 Write-Host "Author: Angel Pescador Portas"
-Write-Host "email: angel.pescador@gmail.com"
+Write-Host "email: angel.pescador @ protonmail.com"
 Write-Host "scripts name: START_BackupVMs_Monthly.ps1"
 Write-Host "Version 1.3"
 Write-Host "Date: 01/02/2018"
@@ -46,7 +46,9 @@ Sleep 5
 
 $ENDBCK = Get-Date -UFormat "%Hh-%M"
 
-Write-HostWrite-Host " END Process " $ENDBCK hWrite-Host " --------------------- "
+Write-Host
+Write-Host " END Process " $ENDBCK h
+Write-Host " --------------------- "
 Write-Host
 
 
