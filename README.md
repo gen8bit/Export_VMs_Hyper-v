@@ -7,3 +7,5 @@ Copy in the Host VM, for example in C:\scripts\Export_VMs_Hyper-v\
 - Copy and configure one script 'BackupVM_server1.ps1' for every VM (Change some variables inside the script, like name of the server, retencion of backup, etc).
 
 After finish the export backup, the script compress every backup with 7za (this may take a long time).
+
+NOTE: You need 7za en the script directory, download the Windows cli versión | http://www.7-zip.org/download.html Windows Server SAGE and script
