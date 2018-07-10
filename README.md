@@ -8,4 +8,4 @@ Copy in the Host VM, for example in C:\scripts\Export_VMs_Hyper-v\
 
 After finish the export backup, the script compress every backup with 7za (this may take a long time).
 
-NOTE: You need 7za en the script directory, download the Windows cli versión | http://www.7-zip.org/download.html Windows Server SAGE and script
+NOTE: You need 7za en the script directory, download the Windows cli versión | http://www.7-zip.org/download.html
